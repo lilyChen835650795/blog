@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lilyChen_Blog</title>
+        
+    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+<div class="navbar navbar-line">
+    <div class="container">
+        <div class="logo">
+            
+                lilyChen_Blog
+            
+        </div>
+        <input type="checkbox" id="idoc_nav" />
+        <div class="menu_tree">
+        <ul><li><a href="../index.html">index</a></li><li class="active"><a href="../html/angular.html">angular</a></li></ul>    
+        </div>
+        
+        
+
+        <section class="idoc_nav_btn">
+            <label for="idoc_nav"><span></span></label>
+        </section>
+    </div>
+    
+</div>
+
+
+
+
+<div class="container">
+
+    <div class="page-toc">
+        <ul><li><a href="#t0第一章">第一章</a><ul><li><a href="#t1使用angular">使用angular</a></li><li><a href="#t2ng-model">ng-model</a></li><li><a href="#t3ng-init初始化">ng-init初始化</a></li><li><a href="#t4ng-repeat">ng-repeat</a></li><li><a href="#t5ng-click在angular中的事件">ng-click在angular中的事件</a></li><li><a href="#t6ng-show ng-hide  ng-if">ng-show ng-hide  ng-if</a></li><li><a href="#t7ng-switch  ng-switch-when">ng-switch  ng-switch-when</a></li><li><a href="#t8ng-class">ng-class</a></li></ul></li></ul>
+    </div>
+    
+    <div class="content markdown-body">
+        <p>[slide]</p>
+<h1 id="t0&#x7B2C;&#x4E00;&#x7AE0;">&#x7B2C;&#x4E00;&#x7AE0; <a href="#t0&#x7B2C;&#x4E00;&#x7AE0;"> # </a></h1>
+<ul>
+<li>&#x7B2C;&#x4E00;&#x6B65;<pre><code>npm install bower -g
+</code></pre></li>
+<li>&#x7B2C;&#x4E8C;&#x6B65;<pre><code>bower install angular
+</code></pre>theme:pink
+[slide]</li>
+</ul>
+<h2 id="t1&#x4F7F;&#x7528;angular">&#x4F7F;&#x7528;angular <a href="#t1&#x4F7F;&#x7528;angular"> # </a></h2>
+<ul>
+<li>&#x5F15;&#x5165;angularjs</li>
+<li>&#x589E;&#x52A0;ng-app &#x8BA9;angular&#x542F;&#x52A8;&#x8FD9;&#x4E2A;&#x5E94;&#x7528;<h2 id="t2ng-model">ng-model <a href="#t2ng-model"> # </a></h2>
+</li>
+<li>&#x5E26;ng&#x7684;&#x90FD;&#x662F;angular&#x6307;&#x4EE4;
+[slide]
+##&#x8868;&#x8FBE;&#x5F0F;</li>
+<li>{{}}</li>
+<li>ng-bind ng-bind-template ng-cloak</li>
+<li>ng-non-bindable
+[slide]<h2 id="t3ng-init&#x521D;&#x59CB;&#x5316;">ng-init&#x521D;&#x59CB;&#x5316; <a href="#t3ng-init&#x521D;&#x59CB;&#x5316;"> # </a></h2>
+<h2 id="t4ng-repeat">ng-repeat <a href="#t4ng-repeat"> # </a></h2>
+</li>
+<li>$index $middle $even track by<h2 id="t5ng-click&#x5728;angular&#x4E2D;&#x7684;&#x4E8B;&#x4EF6;">ng-click&#x5728;angular&#x4E2D;&#x7684;&#x4E8B;&#x4EF6; <a href="#t5ng-click&#x5728;angular&#x4E2D;&#x7684;&#x4E8B;&#x4EF6;"> # </a></h2>
+<h2 id="t6ng-show ng-hide  ng-if">ng-show ng-hide  ng-if <a href="#t6ng-show ng-hide  ng-if"> # </a></h2>
+<h2 id="t7ng-switch  ng-switch-when">ng-switch  ng-switch-when <a href="#t7ng-switch  ng-switch-when"> # </a></h2>
+<h2 id="t8ng-class">ng-class <a href="#t8ng-class"> # </a></h2>
+</li>
+<li>{true:&apos;&#x6837;&#x5F0F;&#x540D;&apos;,false:&apos;&#x6837;&#x5F0F;&#x540D;&apos;}[isActive]</li>
+<li>{&apos;red&apos;:red,&apos;green&apos;:green}</li>
+</ul>
+
+        <div class="copyright">Powered by <a href="https://github.com/jaywcjlove/idoc" target="_blank">idoc</a>. Dependence <a href="https://nodejs.org">Node.js</a> run.</div>
+    </div>
+
+</div>
+
+<style>
+    .page-toc{
+        overflow: hidden;
+        position:fixed;
+        left:50%;
+        margin-left:250px;
+	width:350px
+    }
+    .page-toc > ul li{
+        list-style-position: inside;
+	line-height:120%
+    }
+    .page-toc > ul{
+        transition: all 0.2s;
+        position: relative;
+    }
+    .page-toc > ul a {
+	color:#009a61;
+	font-size:110% ! important;
+	line-height:120%
+    }
+    .page-toc > ul .red{
+        background: #f3f3f3;
+        z-index: 1;
+        border-left: 3px solid #009a61;
+        -webkit-transition: all .2s ease;
+        transition: all .2s ease;
+	color:#000
+    }
+
+    .markdown-body{
+	font-size: 120% ! important;
+        max-width:800px;
+    }
+    .container{
+       font-size: 110% ! important;
+    }
+    html,body,.container{
+      font-family: Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif ! important;
+    }
+    .markdown-body pre code{
+        font-size: 20px;
+        line-height: 24px;
+    }
+</style>
+<script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.js"></script>
+<script>
+
+var bar = $(window).height() - $('.navbar ').height() - $('.page-toc').position().top;
+var count =  bar/26/2;
+var barHeight = $('.page-toc').outerHeight();
+$('.page-toc li').eq(0).children('a').addClass('red');
+var arr = [];
+$("h2,h3").each(function () {
+    arr.push($(this).position().top);
+});
+if(!($(window).height()-50 > barHeight)){
+    var flagTop = true;
+}
+function dark(){
+    var top =  Math.abs($('.page-toc > ul').position().top);
+    var cur = $(document).scrollTop();
+    for(var i = arr.length; i >=0;i--){
+        if(arr[i]<=cur){
+            break;
+        }
+    }
+    if(i===-1){
+        i = 0;
+    }
+    $('.page-toc li a').removeClass('red');
+    $('.page-toc li').eq(i).children('a').addClass('red');
+    if(flagTop){
+      if(i> arr.length-count){
+          $(' .page-toc > ul').css('top',-(barHeight-bar));
+          return;
+      }
+      if(i>count){
+          $(' .page-toc > ul').css('top',-26*(i-count));
+      }else{
+          $(' .page-toc > ul').css('top',0);
+      }
+    }
+}
+$(window).on('scroll',dark);
+</script>
+</body>
+</html>

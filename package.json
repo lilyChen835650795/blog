@@ -1,0 +1,22 @@
+{
+    "name": "lilyChen_Blog",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": [
+        ""
+    ],
+    "homepage": "http://JSLite.io",
+    "author": "lilyChen835650795 <835650795@qq.com>",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "licenses": "MIT",
+    "idoc": {
+        "theme": "blog",
+        "md": [
+            "index.md",
+            "angular.md"
+        ]
+    }
+}
